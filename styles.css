@@ -1,7 +1,7 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
-}
+} */
 div{
     margin: auto 0;
 }
@@ -23,7 +23,6 @@ nav ul{
     display: flex;
     justify-content: center;
     flex-direction: row;
-
 }
 .left{
     font-size: 1.4rem;
@@ -34,7 +33,18 @@ nav ul li{
 }
 
 .summary{
+    /* opacity: 0.5; */
+    margin: "50%";
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+a{
+    color: white;
+}
+a:hover{
+    color: 'burlywood';
+}
+a:active{
+    color: 'voilet';
 }
